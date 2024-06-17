@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgb(0, 255, 234), rgba(0, 255, 221, 0.144));
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in (polegada), px, pt (ponto), pc;
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            
+            Recomendável usar px; ou em;
+            16px = 1em
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder */
+
+        }
+
+        h1 {
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans', sans-serif;
+            */
+            font: italic bold 3em sans-serif;
+        }
+
+        h2 {
+            font: 2em arial;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, in! Pariatur, modi explicabo rerum omnis assumenda sequi nihil illo tenetur, at, dignissimos itaque excepturi sit perspiciatis consequatur? Perferendis, ipsam voluptatibus.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique perspiciatis animi consequuntur necessitatibus deleniti voluptates ex atque repudiandae nam veritatis quod cupiditate rem facilis illo, natus voluptas consectetur ducimus eaque.</p>
+        <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique deserunt totam assumenda dolores numquam, odio, vitae adipisci labore accusantium tempore exercitationem amet fugiat? Nam, repudiandae nihil officia assumenda eveniet totam.</p>
+    </main>
+</body>
+</html>
